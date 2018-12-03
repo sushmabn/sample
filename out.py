@@ -1,6 +1,10 @@
+
 import sys
 from sys import argv
 
+
+def bRun = build job: 'Finished', 
+    
 def console_logs(Finished):
     print "entry to code"
     if(string(Finished) == "SUCCESS"):
@@ -15,3 +19,5 @@ if argv[0]=='console_logs':
     file.close()
     print output
     print "sample.txt"
+    
+println bRun.rawBuild.log
