@@ -1,4 +1,5 @@
 
+
 import sys
 from sys import argv
 
@@ -14,3 +15,5 @@ if argv[0]=='console_logs':
     file = open("sample.txt","w")
     file.write(output)
     file.close()
+    print output
+    print "sample.txt"
