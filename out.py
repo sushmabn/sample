@@ -1,5 +1,3 @@
-
-
 import sys
 from sys import argv
 
@@ -11,7 +9,7 @@ def console_logs(Finished):
         print 'Build completed with failure'
 
 if argv[0]=='console_logs':
-    output = console_logs(argv[2])    
+    output = console_logs(argv[1])    
     file = open("sample.txt","w")
     file.write(output)
     file.close()
