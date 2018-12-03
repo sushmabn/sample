@@ -10,9 +10,7 @@ def console_logs(Finished):
         print 'Build completed with failure'
 
 if argv[0]=='console_logs':
-    
-    z=console_logs(argv[2])
-output = console_logs()    
-file = open("sample.txt","w")
-file.write(output)
-file.close()
+    output = console_logs(argv[2])    
+    file = open("sample.txt","w")
+    file.write(output)
+    file.close()
