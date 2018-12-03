@@ -3,7 +3,6 @@ import sys
 from sys import argv
 
 
-def bRun = build job: 'Finished', 
     
 def console_logs(Finished):
     print "entry to code"
@@ -20,4 +19,4 @@ if argv[0]=='console_logs':
     print output
     print "sample.txt"
     
-println bRun.rawBuild.log
+
