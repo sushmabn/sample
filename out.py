@@ -1,6 +1,6 @@
 def console_logs(Finished):
     print "entry to code"
-    if(Finished == "SUCCESS")
+    if(string(Finished) == "SUCCESS")
         print 'Build completed successfully!'
     else
         print 'Build completed with failure'
