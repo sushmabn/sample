@@ -1,3 +1,6 @@
+import sys
+from sys import argv
+
 def console_logs(Finished):
     print "entry to code"
     if(string(Finished) == "SUCCESS"):
