@@ -1,3 +1,4 @@
+
 import sys
 from sys import argv
 
@@ -11,3 +12,7 @@ def console_logs(Finished):
 if argv[0]=='console_logs':
     
     z=console_logs(argv[2])
+output = console_logs()    
+file = open("sample.txt","w")
+file.write(output)
+file.close()
