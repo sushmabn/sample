@@ -15,8 +15,8 @@ if argv[0]=='console_logs':
     output = console_logs(argv[1])    
     file = open("sample.txt","w")
     file.write(output)
-    file.close()
-    print output
-    print "sample.txt"
+    file = file.readline(output)
+    print 'file'
+    
     
 
