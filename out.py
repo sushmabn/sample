@@ -8,6 +8,6 @@ def console_logs(Finished):
     else:
         print 'Build completed with failure'
 
-if argv[1]=='console_logs':
+if argv[0]=='console_logs':
     
     z=console_logs(argv[2])
